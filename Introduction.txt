@@ -24,6 +24,7 @@ Git Configurations
 git config --global user.name "username"
 git config --global user.email "votreemail@gmail.com"
 git config --list
+git blame
 
 ----------------------------
 Git création d'un repository
@@ -43,6 +44,9 @@ Git création d'un commit
 ------------------------
 
 git commit -m "votre message"
+git commit -am "votre message"
+git reset <commit>
+git revert <commit>
 
 ------------------------
 Git pull & push 
@@ -96,3 +100,18 @@ Faire des sauvegarde
 Faire des push 
 Sur GITHUB vous faite des pullrequests
 
+
+Exercice Groupe : 
+
+Création d'un blog en HTML / CSS 
+1 Homepage 1 page contact 1 page détail d'un article 1 Qui sommes nous 
+
+
+Un personne du groupe qui crée le projet 
+Git init 
+Créer un repo distant 
+Ajoute son remote 
+et push 
+
+les autres membres du groupes font un clone 
+et chaque membre travail sur sa branch 
